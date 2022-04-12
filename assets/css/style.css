@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding: 20vh 26vw;
+}
+
+fieldset {
+    padding: 2vh 2vw;
+}
+
+legend,
+label {
+    font-size: 3rem;
+}
+
+legend {
+    margin-left: 1vw;
+}
+
+label:nth-of-type(2) {
+    padding-left: 1vw;
+}
+
+input {
+    font-size: 1.6rem;
+    padding: 1vh 0 1vh 1vw;
+}
+
+input[type=submit],
+input[type=reset] {
+    background-color: white;
+    padding-right: 1vw;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-top: 2vh;
+}
+
+input[type=submit] {
+    margin-right: 10px;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+    background-color: blue;
+    color: white;
+}
